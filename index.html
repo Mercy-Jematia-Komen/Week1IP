@@ -1,26 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Home</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script>
-  $(function(){
-    $("#includedContent").load("header.html");
-  });
-  </script>
+	<title>About Me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script>
+	$(function() {
+		$("#includedContent").load("header.html");
+	});
+	</script>
+	<style>
+	.avatar {
+		vertical-align: middle;
+		width: 90px;
+		height: 100px;
+		border-radius: 50%;
+		float: left;
+		padding-bottom: -50px;
+	}
+	</style>
 </head>
+
 <body>
-
-<div id="includedContent"></div>
-
-<div class="container">
-  <h3>Basic Navbar Example</h3>
-  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
-</div>
-
+	<div id="includedContent"></div>
+	<div class="container"> <img src="images/mk.jpg" alt="Avatar" class="avatar">
+		<p style="text-align: center;">Mercy Jematia Komen</p>
+		<p style="text-align: center;">P.O. Box 424-30400, Kabarnet, Kenya</p>
+		<p style="text-align: center;">Cell: +254 702934173 E-Mail: komenmercy23@gmail.com</p>
+		<h3>PROFESSIONAL SUMMARY</h3>
+		<p>I am a professional Software Developer in Test Engineer with more than 5 years of software products quality assurance experience, including test planning, test cases design, implementation and execution at different test levels I.e. Application level, integration level up to the user interface level. Also experienced in performance testing and automation testing to ensure efficiency and high quality of products.</p>
+		<h3>SKILLS</h3>
+		<table class="table">
+			<tbody>
+				<tr>
+					<td>Programming Languages
+						<ul>
+							<li>C++</li>
+							<li>Java</li>
+							<li>C</li>
+							<li>Python</li>
+							<li>Go</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>Database
+						<ul>
+							<li>MySQL</li>
+							<li>Oracle</li>
+							<li>MongoDb</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<h3>JOB EXPERIENCE</h3>
+		<p>Software Developer In Test, Quality Engineering– Safaricom PLC</p>
+		<h3> LIST OF PROJETS I'VE CREATED :</h3>
+		<ul>
+			<li><a href="https://github.com/Mercy-Jematia-Komen/hello-world" target="_blank">Hello World</a></li>
+			<li><a href="https://github.com/Mercy-Jematia-Komen/cookie" target="_blank">Cookie Recipe</a></li>
+			<li><a href="https://github.com/Mercy-Jematia-Komen/Week1IP" target="_blank">Week 1 IP</a></li>
+		</ul>
+		<h3>EDUCATION</h3>
+		<table class="table">
+			<tr>
+				<td>2021/10 -2022/08</td>
+				<td>
+					<ul style="list-style-type:none;">
+						<li>DevOps and Site Reliability Engineering (Digital Academy)</li>
+						<li>Moringa School</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>2012 - 2016</td>
+				<td>
+					<ul style="list-style-type:none;">
+						<li>Bachelor of Science: Informatics</li>
+						<li>Moi University</li>
+						<li>Grade: 2nd class honors, Upper Division</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
 </body>
+
 </html>
